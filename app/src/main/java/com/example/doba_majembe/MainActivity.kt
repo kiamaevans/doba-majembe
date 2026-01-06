@@ -11,6 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.doba_majembe.navigation.AppNavHost
 import com.example.doba_majembe.ui.theme.DobamajembeTheme
 
 class MainActivity : ComponentActivity() {
