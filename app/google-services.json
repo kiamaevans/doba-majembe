@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "692429737004",
+    "project_id": "doba-majembe",
+    "storage_bucket": "doba-majembe.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692429737004:android:1878c72aa61bc4cae91589",
+        "android_client_info": {
+          "package_name": "com.example.doba_majembe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "692429737004-8nsmslolif6kega16q8kk1595tbefpc8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCiWSChJ0pf-xWcVUJH04_DePiRGoeTIs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "692429737004-8nsmslolif6kega16q8kk1595tbefpc8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
