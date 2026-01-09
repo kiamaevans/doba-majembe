@@ -6,6 +6,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.example.doba_majembe.ui.theme.screens.Home_screen
 import com.example.doba_majembe.ui.theme.screens.LoginScreen
 
 import com.example.doba_majembe.ui.theme.screens.SignUpScreen
@@ -26,6 +27,7 @@ fun AppNavHost(
 
         composable(ROUTE_LOGIN) { LoginScreen(navController) }
         composable (ROUTE_SIGNUP){ SignUpScreen(navController) }
+        composable (ROUTE_HOME){ Home_screen(navController) }
     }
 }
 
