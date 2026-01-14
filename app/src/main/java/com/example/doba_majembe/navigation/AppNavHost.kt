@@ -8,6 +8,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.doba_majembe.ui.theme.screens.Home_screen
 import com.example.doba_majembe.ui.theme.screens.LoginScreen
+import com.example.doba_majembe.ui.theme.screens.Login_Chess
 
 import com.example.doba_majembe.ui.theme.screens.SignUpScreen
 
@@ -18,7 +19,7 @@ import com.example.doba_majembe.ui.theme.screens.SignUpScreen
 @Composable
 fun AppNavHost(
     navController: NavHostController = rememberNavController(),
-    startDestination: String = ROUTE_LOGIN
+    startDestination: String = ROUTE_CHESS
 ) {
     NavHost(
         navController = navController,
@@ -28,6 +29,7 @@ fun AppNavHost(
         composable(ROUTE_LOGIN) { LoginScreen(navController) }
         composable (ROUTE_SIGNUP){ SignUpScreen(navController) }
         composable (ROUTE_HOME){ Home_screen(navController) }
+        composable (ROUTE_CHESS){ Login_Chess(navController) }
     }
 }
 
