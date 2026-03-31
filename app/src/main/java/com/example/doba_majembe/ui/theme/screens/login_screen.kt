@@ -42,7 +42,7 @@ fun LoginScreen(navController: NavController) {
             onClick = {
 
                 // navigate to home screen on success
-                navController.navigate("dashboard")
+                navController.navigate("home")
             },
             modifier = Modifier.padding(top = 16.dp)
         ) {
